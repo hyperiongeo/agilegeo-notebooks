@@ -52,5 +52,5 @@ def helix(start=0.5, rot=-1.5, gamma=1.0, reverse=False, n=256, min_sat=1.2, max
         gg.append((float(k) / (n - 1.), grn[k], grn[k]))
 
     cdict = {'red': rr, 'blue': bb, 'green': gg}
-    
+
     return LSC('cubehelix_map', cdict)
